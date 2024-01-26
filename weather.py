@@ -11,11 +11,13 @@ print(api_key)
 def get_coordinates(city, state, country, api_key):
     response = requests.get(
         f"https://api.openweathermap.org/geo/1.0/direct?q={city},{state},{country}&appid={api_key}").json()
+    lat = response[0]["lat"]
+    lon = response[0]["lon"]
 
-    print(response)
+    print(lat, lon)
 
 
-# get_coordinates("Lucknow", "UP", "India", api_key)
+get_coordinates("Lucknow", "UP", "India", api_key)
 
 def get_weather(lat, lon, api_key):
     response = requests.get(
