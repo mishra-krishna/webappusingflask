@@ -22,7 +22,7 @@ This Flask Weather App is a simple web application that retrieves real-time weat
 
 2. **Navigate to the Project Directory:**
    ```bash
-   cd flask-weather-app
+   cd webappusingflask
    ```
 
 3. **Install Dependencies:**
