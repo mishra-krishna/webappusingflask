@@ -17,7 +17,7 @@ This Flask Weather App is a simple web application that retrieves real-time weat
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/flask-weather-app.git
+   git clone https://github.com/mishra-krishna/webappusingflask
    ```
 
 2. **Navigate to the Project Directory:**
